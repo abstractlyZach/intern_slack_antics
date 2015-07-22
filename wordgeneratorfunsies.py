@@ -52,8 +52,6 @@ def produce_text(d: dict, starting_words: list, generate_count: int) -> list:
     
 
 
-
-
 order_statistic = prompt.for_int('Enter order statistic', is_legal = lambda x: x>0)
 
 file = open('thisisawesome.txt', 'r', encoding = 'utf-8')
