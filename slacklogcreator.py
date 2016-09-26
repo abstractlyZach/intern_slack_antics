@@ -40,6 +40,6 @@ def remove_links(text):
 	return re.sub('<.*>', '', text)
 
 
-base_url = 'https://slack.com/api/groups.history?token=xoxp-3490251431-6524335331-8013364929-a4402b&channel=G06FL9P7B&pretty=1'
+base_url = '{insert base url here}'
 
 get_all_pages('0', 'thisisawesome.txt')
